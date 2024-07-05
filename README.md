@@ -64,3 +64,62 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 **Market Benefits**  
 * Efficient Retrieval and Notification Delivery.
+
+<br>
+
+**4. Finding Connections**
+
+**Use Case**  
+* Finding all direct connections (followers/following) to understand the immediate network around the user. BFS can be used for this purpose where a node is a user and the nodes connected to it are followers.
+
+**Challenges**  
+* The graph would consume lot of space.
+
+**Market Benefits**  
+* Users can quickly find mutuals.
+
+<br>
+
+**5. Optimizing Content Delivery Network (CDN) Connections**
+
+**Use Case**  
+* Instagram has a network of servers distributed globally. Minimum spanning tree algorithms (Prim's, Kruskal's) can be used to optimize the connections between these servers, minimizing the total communication cost and ensure efficient content delivery.
+
+**Challenges**  
+* Dynamic nature of CDN (servers going online/offline).
+
+**Market Benefits**  
+* Cost reduction
+* Improved performance
+
+<br>
+
+**6. Engagement Metrics Calculation**
+
+**Use Case**  
+* Content creators on Instagram might want to know how well their post is performing (likes, comments, shares). The frequency of these queries might be high, so precomputing the number of likes, comments, shares for a particular interval(day, week, month) and storing them in a lookup table might be beneficial.
+
+**Challenges**  
+* Requires lot of storage for large number of posts over various time intervals.
+* Lookup table needs to be updated frequently to maintain data consistency between source and the table.
+
+**Market Benefits**  
+* Faster query response times.
+* Reduces computational load.
+* Offering fast analytics can differentiate Instagram from other competitors.
+
+<br>
+
+**7. Feed Generation and Ranking**
+
+**Use Case**  
+* Each post is assigned a priority based on factors such as recency, relevance to the user's interests, and engagement metrics (like likes and comments).  Priority queue (heap) can be used to manage and prioritize posts for each user's feed.
+
+**Challenges**  
+* Dynamic nature of data (user preference changes) poses a challenge to decide the priority.
+
+**Market Benefits**  
+* Real-time updates as heap supports fast insertion and deletion operations.
+
+<br>
+
