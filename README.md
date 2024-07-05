@@ -123,3 +123,109 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 <br>
 
+**8. Story Viewing Sequence**
+
+**Use Case**  
+* Instagram employs a deque to manage the sequence of stories that users view, enabling seamless navigation between previous and next stories for an enhanced user experience. New stories are added to the rear of the deque as users start viewing them. Users can navigate through stories using operations to move to the next story (remove from the front) or return to the previous story (add back to the front).
+
+**Challenges**  
+* Handling user interactions (such as skips or returns) that affect the story viewing sequence in real-time.
+
+**Market Benefits**  
+* Enhanced user experience and user retention.
+
+<br>
+
+**9. Image and Video Compression**
+
+**Use Case**  
+* Shorter codes can be assigned to frequently occurring patterns in pixel data or video frames as part of image and video compression. Huffman encoding can reduce file size without sacrificing visual quality significantly.
+
+**Challenges**  
+* Quality of image or video might degrade significantly with high compression ratios.
+
+**Market Benefits**  
+* Less storage requirements
+* Faster loading time of compressed data
+* Less bandwidth is used
+
+<br>
+
+**10. Securing User Data Using Hashing Algorithms**
+
+**Use Case**  
+* Securing user data and authenticating accounts is crucial for Instagram to maintain user trust and protect against unauthorized access. Passwords are hashed using cryptographic algorithms before being stored, ensuring protection even if databases are compromised.
+
+**Challenges**  
+* Protecting user data and authenticating accounts.
+
+**Market Benefits**  
+* Increased security and user trust.
+
+<br>
+
+**11. Ad placement on Instagram**
+
+**Use Case**  
+* Advertising on instagram relies on efficient allocation of ad placements within user feeds, stories, and explore pages to maximize revenue and user engagement. The Assignment Problem can help determine the optimal assignment of advertisements to available ad slots across the platform.
+
+**Challenges**  
+* Maximize user engagement and ad revenue.
+
+**Market Benefits**  
+* Higher revenue.
+* Increased ad awareness.
+
+<br>
+
+**12. Content Filtering and Moderation**
+
+**Use Case**  
+* Bloom filters can be used to store hashes of known inappropriate words, phrases, or patterns. When filtering user-generated content (like comments or posts), new content can be quickly checked against the Bloom filter. If the filter indicates a match, further, more intensive checks can be performed.
+
+**Challenges**  
+* Due to the probabilistic nature of bloom filters, appropriate content might be marked as inappropriate leading to user frustration.
+
+**Market Benefits**  
+* Efficient content moderation
+
+<br>
+
+**13. Time Series Data Analysis**
+
+**Use Case**  
+* Advertising on instagram relies on efficient allocation of ad placements within user feeds, stories, and explore pages to maximize revenue and user engagement. The Assignment Problem can help determine the optimal assignment of advertisements to available ad slots across the platform.
+
+**Challenges**  
+* Maximize user engagement.
+* Maximize ad revenue.
+
+**Market Benefits**  
+* Higher revenue.
+* Increased ad awareness.
+
+<br>
+
+**14. Content Similarity Analysis**
+
+**Use Case**  
+* Longest Common Subsequence (LCS) is used to analyze the similarity between different pieces of content (captions, comments, bios). it helps in recommending similar posts to users, identifying trends, and enhancing search functionalities.
+
+**Challenges**  
+* Computationally expensive for long sequences.
+
+**Market Benefits**  
+* Users can find similar content.
+* Identify similar content to detect spam.
+
+<br>
+
+**15. Sort User's Following List**
+
+**Use Case**  
+*Users might want to know the order in which they followed other accounts. Instagram provides the functionality to sort accounts which the user has followed by dates (both latest and earliest). Sorting algorithms like merge sort, quick sort can be used for this purpose.
+
+**Market Benefits**  
+* User experience enhancement as faster sorting results.
+
+<br>
