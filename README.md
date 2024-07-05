@@ -31,7 +31,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 **1. Autocomplete Hashtag Searches**
 
 **Use Case**  
-Users might not want to type the entire hashtag when they search for posts related to it (especially when the hashtag is big). Tries can be used for autocomplete functionality in hashtag searches. They efficiently store and retrieve strings based on prefixes, allowing Instagram to suggest completions as users type.
+* Users might not want to type the entire hashtag when they search for posts related to it (especially when the hashtag is big). Tries can be used for autocomplete functionality in hashtag searches. They efficiently store and retrieve strings based on prefixes, allowing Instagram to suggest completions as users type.
 
 **Challenges**  
 * Using tries with very long strings can be impractical.
@@ -39,13 +39,28 @@ Users might not want to type the entire hashtag when they search for posts relat
 **Market Benefits**  
 * Allows users to find all hashtags that start with a given prefix efficiently.
 
-**2. Autocomplete Hashtag Searches**
+<br>
+
+**2. Geolocation Services**
 
 **Use Case**  
-Users might not want to type the entire hashtag when they search for posts related to it (especially when the hashtag is big). Tries can be used for autocomplete functionality in hashtag searches. They efficiently store and retrieve strings based on prefixes, allowing Instagram to suggest completions as users type.
+* Instagram uses KD-Trees to efficiently store and query geotagged content (posts, stories) based on proximity to a user's location, enhancing the user experience by surfacing location-relevant content.
 
 **Challenges**  
-* Using tries with very long strings can be impractical.
+* More space required to maintain tree, complexity of tree construction increases if data dimensionality increases (beyond latitude and longitude).
 
 **Market Benefits**  
-* Allows users to find all hashtags that start with a given prefix efficiently.
+* Improved user experience by providing location relevant content.
+
+<br>
+
+**3. Event Scheduling and Reminders**
+
+**Use Case**  
+* Binary Search Trees are employed to manage and search scheduled events and reminders within Instagram's notification systems. BSTs facilitate efficient insertion, deletion, and retrieval operations based on event timestamps.
+
+**Challenges**  
+* Cannot support duplicate keys (in this case same timestamp for two events).
+
+**Market Benefits**  
+* Efficient Retrieval and Notification Delivery.
