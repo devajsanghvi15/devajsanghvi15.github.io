@@ -12,45 +12,144 @@
 * USN: 01FE21BCI055
 * University: KLE Technological University, Hubballi-31
 
-#### Note:
-This page hosts:
-
-1. Intro
-2. why
-3. design
-
----
-
 ## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Introduction](#introduction)
-- [Why](#why)
-- [Design](#design)
-
----
-
-## Prerequisites
-#### Note:
-This page hosts:
-
-1. 
-
----
+* [Introduction](#introduction)
+* [Objectives](#objectives)
+* [Business Cases](#business-cases)
 
 ## Introduction
 Content for the Introduction section goes here.
 
----
 
-## Why
-Content for the Why section goes here.
 
----
 
-## Design
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Objectives
+Content for the objectives section goes here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Business Cases
 Content for the Design section goes here.
-
----
-
-### Note
-This template provides a structured README.md file with a table of contents. Click on each section title in the table of contents to navigate directly to that section.
