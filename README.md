@@ -1,22 +1,17 @@
 # Instagram Portfolio
 
-<dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Course Code</dt>
-<dd>23ECSE309</dd>
-<dt>Course Instructor</dt>
-<dd>Prakash Hegade</dd>
-<dt>University</dt>
-<dd>KLE Technological University, Hubballi-31</dd>
-</dl>
+## Course Information
 
----
+* Course Name: Algorithmic Problem Solving
+* Course Code: 23ECSE309
+* Course Instructor: Prakash Hegade
 
-> A step towards better social media management
->
-> DS
->
+## Personal Information
+
+* Name: Devaj Sanghvi
+* USN: 01FE21BCI055
+* University: KLE Technological University, Hubballi-31
+
 #### Note:
 This page hosts:
 
