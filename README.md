@@ -221,7 +221,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 **15. Sort User's Following List**
 
 **Use Case**  
-*Users might want to know the order in which they followed other accounts. Instagram provides the functionality to sort accounts which the user has followed by dates (both latest and earliest). Sorting algorithms like merge sort, quick sort can be used for this purpose.
+* Users might want to know the order in which they followed other accounts. Instagram provides the functionality to sort accounts which the user has followed by dates (both latest and earliest). Sorting algorithms like merge sort, quick sort can be used for this purpose.
 
 **Market Benefits**  
 * User experience enhancement as faster sorting results.
