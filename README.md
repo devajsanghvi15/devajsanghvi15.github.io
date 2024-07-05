@@ -194,15 +194,13 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 **13. Time Series Data Analysis**
 
 **Use Case**  
-* Advertising on instagram relies on efficient allocation of ad placements within user feeds, stories, and explore pages to maximize revenue and user engagement. The Assignment Problem can help determine the optimal assignment of advertisements to available ad slots across the platform.
+* Instagram deals with vast amounts of time-series data, including user activity logs, system performance metrics and engagement analytics. Segment trees can be employed to perform range queries on this data efficiently. For example, segment trees can facilitate queries that analyze user engagement trends over specific time intervals or identify peak usage periods.
 
 **Challenges**  
-* Maximize user engagement.
-* Maximize ad revenue.
+* Dealing with large amount of data which updates frequently.
 
 **Market Benefits**  
-* Higher revenue.
-* Increased ad awareness.
+* Better understanding of user behaviour and system performance.
 
 <br>
 
