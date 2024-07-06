@@ -128,7 +128,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
   * Time Complexity: (O((V+E)logV) with priority queue
   * Space Complexity: (O(V+E)), where V is the number of vertices and E is the number of edges.
 
-[Code for Kruskal's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/kruskalAlgorithm.c){:target="_blank"} <br>
+[Code for Kruskal's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"} <br>
 [Code for Prim's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/prims.cpp){:target="_blank"}
 
 <br><br>
