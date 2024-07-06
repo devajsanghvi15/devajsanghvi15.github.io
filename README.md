@@ -74,7 +74,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(logn) on average for insertion and search operations (tree is balanced), O(n) in the worst case (tree is unbalanced), where n is the number of points in the tree.
   * Space Complexity: O(n) where n is the number of points stored in the tree.
  
-[Code for KD-Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/KDTree.cpp){:target="_blank"}
+[Code for KD-Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/KDTree.cpp){:target="_blank"} [[6]](https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/){:target="_blank"}
 
 <br>
 
@@ -182,7 +182,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(logn) for all operations except getMax() which has a time compplexity is O(1).
   * Space Complexity: O(n), where n is the number of elements in the queue.
 
-[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"} [[6]](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/){:target="_blank"}
+[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"} [[7]](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/){:target="_blank"}
 
 <br>
 
@@ -278,7 +278,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(k) for insertion where k is the number of hash functions.
   * Space Complexity: O(m) where m is the size of the array.
 
-[Code for bloom filters](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [[7]](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
+[Code for bloom filters](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [[8]](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
 
 <br>
 
@@ -349,5 +349,6 @@ To handle such amount of large data, Instagram must be using advanced data struc
 [3] “Instagram Revenue and Usage Statistics (2024) - Business of Apps,” Business of Apps, Apr. 18, 2024. https://www.businessofapps.com/data/instagram-statistics/ <br><br>
 [4] J. Santora, “16 key Instagram Reels Statistics for Marketers to know,” Influencer Marketing Hub, Dec. 22, 2023. https://influencermarketinghub.com/instagram-reels-stats/ <br><br>
 [5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country <br><br>
-[6] GeeksforGeeks, “Priority Queue using Binary Heap,” GeeksforGeeks, Jun. 07, 2024. https://www.geeksforgeeks.org/priority-queue-using-binary-heap/ <br><br>
-[7] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ <br>
+[6] GeeksforGeeks, “Search and Insertion in K Dimensional tree,” GeeksforGeeks, Jun. 13, 2023. https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/ <br><br>
+[7] GeeksforGeeks, “Priority Queue using Binary Heap,” GeeksforGeeks, Jun. 07, 2024. https://www.geeksforgeeks.org/priority-queue-using-binary-heap/ <br><br>
+[8] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ <br>
