@@ -1,4 +1,4 @@
-# Insta Insight
+title: Insta Insight
 
 ## Course Information
 
