@@ -61,7 +61,7 @@ Code
 
 **DSA Used, Design Technique and Performance Analysis**
 * KD-Tree: Divide and conquer, Tree data structure
-  * Time Complexity: O(logn) for insertion and search operations, where n is the number of points in the tree.
+  * Time Complexity: O(logn) on average for insertion and search operations (tree is balanced), O(n) in the worst case (tree is unbalanced), where n is the number of points in the tree.
   * Space Complexity: O(n) where n is the number of points stored in the tree.
  
 code
@@ -78,6 +78,11 @@ code
 
 **Market Benefits**  
 * Efficient Retrieval and Notification Delivery.
+
+**DSA Used, Design Technique and Performance Analysis**
+* Binary Search Tree: Divide and conquer (binary search), Tree data structure
+  * Time Complexity: O(logn) on average for insertion, deletion and search operations, O(n) in the worst case, where n is the number of nodes in the tree.
+  * Space Complexity: O(n) where n is the number of nodes in the tree.
 
 <br>
 
