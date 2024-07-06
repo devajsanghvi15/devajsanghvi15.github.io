@@ -22,8 +22,8 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 ## Objectives
 * Showcase the algorithms and data structures learned during APS.
-* Illustrate how algorithmic problem solving techniques can be applied to optimize and enhance various aspects of social media management.
-* Provide a clear understanding of how advanced algorithms and data structures can solve complex problems and improve efficiency in social media platforms.
+- Illustrate how algorithmic problem solving techniques can be applied to optimize and enhance various aspects of social media management.
++ Provide a clear understanding of how advanced algorithms and data structures can solve complex problems and improve efficiency in social media platforms.
 * Serve as an educational resource for others interested in understanding the application of algorithms and data structures in social media platforms.
 
 ## Business Cases
@@ -43,6 +43,8 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 * Tries: Tree data structure, Prefix tree
   * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+ 
+Code
 
 <br>
 
