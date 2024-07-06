@@ -197,6 +197,14 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Market Benefits**  
 * Enhanced user experience and user retention.
 
+**DSA Used and Performance Analysis**
+* Deque:
+  * Time Complexity: Insertion and deletion operations take O(1) time complexity.
+  * Space Complexity: O(n), where n is the number of elements in the deque.
+
+[Code for Deque](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/deque.c){:target="_blank"} [[8]](https://www.javatpoint.com/ds-deque){:target="_blank"}
+
+
 <br>
 
 **9. 📷 Image and Video Compression**
@@ -278,7 +286,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(k) for insertion where k is the number of hash functions.
   * Space Complexity: O(m) where m is the size of the array.
 
-[Code for bloom filters](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [[8]](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
+[Code for bloom filters](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [[9]](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
 
 <br>
 
@@ -298,7 +306,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(logN) for both query and update operations, where N is the number of elements.
   * Space Complexity: O(N) where N is the number of elements.
 
-[Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"} [[9]](https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/){:target="_blank"}
+[Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"} [[10]](https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/){:target="_blank"}
 
 <br>
 
@@ -351,5 +359,6 @@ To handle such amount of large data, Instagram must be using advanced data struc
 [5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country <br><br>
 [6] GeeksforGeeks, “Search and Insertion in K Dimensional tree,” GeeksforGeeks, Jun. 13, 2023. https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/ <br><br>
 [7] GeeksforGeeks, “Priority Queue using Binary Heap,” GeeksforGeeks, Jun. 07, 2024. https://www.geeksforgeeks.org/priority-queue-using-binary-heap/ <br><br>
-[8] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ <br><br>
-[9] Manish, “C++ program to implement segment Tree,” Sanfoundry, May 19, 2022. https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/
+[8] “Deque (Data Structures) - javatpoint,” www.javatpoint.com. https://www.javatpoint.com/ds-deque <br><br>
+[9] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ <br><br>
+[10] Manish, “C++ program to implement segment Tree,” Sanfoundry, May 19, 2022. https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/
