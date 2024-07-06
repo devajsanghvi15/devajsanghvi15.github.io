@@ -1,3 +1,5 @@
+---
+
 ## Course Information
 
 * Course Name: Algorithmic Problem Solving
