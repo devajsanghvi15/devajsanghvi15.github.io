@@ -13,12 +13,17 @@
 * University: KLE Technological University, Hubballi-31
 
 ## Table of Contents
-* [Introduction](#introduction)
-* [Objectives](#objectives)
-* [Business Cases](#business-cases)
+* [👋 Introduction](#introduction)
+* [❓ Why Instagram?](#why-instagram)
+* [🎯 Objectives](#objectives)
+* [💼 Business Cases](#business-cases)
+* [📑 References](#references)
 
 ## Introduction
 Welcome to my Instagram Portfolio, where I present the knowledge I've gained from the Algorithmic Problem Solving (APS) course taught at KLE Technological University. During this course, I explored the various algorithms and data structures, focusing on their practical applications in real-world situations. This portfolio showcases these learnings through various business cases, each highlighting a different aspect of algorithmic problem-solving and its importance in enhancing social media management.
+
+## Why Instagram?
+content
 
 ## Objectives
 * Showcase the algorithms and data structures learned during APS.
@@ -332,3 +337,6 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 [Code for Merge Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/mergeSort.cpp){:target="_blank"} <br>
 [Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
+
+## References
+content
