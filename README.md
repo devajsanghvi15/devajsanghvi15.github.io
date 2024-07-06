@@ -83,6 +83,8 @@ code
 * Binary Search Tree: Divide and conquer (binary search), Tree data structure
   * Time Complexity: O(logn) on average for insertion, deletion and search operations, O(n) in the worst case, where n is the number of nodes in the tree.
   * Space Complexity: O(n) where n is the number of nodes in the tree.
+ 
+code
 
 <br>
 
@@ -97,6 +99,11 @@ code
 **Market Benefits**  
 * Users can quickly find mutuals.
 
+**DSA Used, Design Technique and Performance Analysis**
+* BFS: Level order traversal, queue data structure
+ * Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
+ * Space Complexity: O(V) for the queue used in BFS
+
 <br>
 
 **5. Optimizing Content Delivery Network (CDN) Connections**
@@ -110,6 +117,16 @@ code
 **Market Benefits**  
 * Cost reduction
 * Improved performance
+
+**DSA Used, Design Technique and Performance Analysis**
+* Kruskal's Algorithm: Minimum Spanning Tree (MST), Greedy method
+ * Time Complexity: (O(ElogE))
+ * Space Complexity: (O(V+E))
+* Prim's Algorithm: Minimum Spanning Tree (MST), Greedy method
+ * Time Complexity: (O((V+E)logV) with priority queue
+ * Space Complexity: (O(V+E)), where V is the number of vertices and E is the number of edges.
+
+code
 
 <br>
 
