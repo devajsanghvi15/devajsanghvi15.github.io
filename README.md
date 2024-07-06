@@ -101,8 +101,8 @@ code
 
 **DSA Used, Design Technique and Performance Analysis**
 * BFS: Level order traversal, queue data structure
- * Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
- * Space Complexity: O(V) for the queue used in BFS
+  * Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
+  * Space Complexity: O(V) for the queue used in BFS
 
 <br>
 
@@ -120,11 +120,11 @@ code
 
 **DSA Used, Design Technique and Performance Analysis**
 * Kruskal's Algorithm: Minimum Spanning Tree (MST), Greedy method
- * Time Complexity: (O(ElogE))
- * Space Complexity: (O(V+E))
+  * Time Complexity: (O(ElogE))
+  * Space Complexity: (O(V+E))
 * Prim's Algorithm: Minimum Spanning Tree (MST), Greedy method
- * Time Complexity: (O((V+E)logV) with priority queue
- * Space Complexity: (O(V+E)), where V is the number of vertices and E is the number of edges.
+  * Time Complexity: (O((V+E)logV) with priority queue
+  * Space Complexity: (O(V+E)), where V is the number of vertices and E is the number of edges.
 
 code
 
@@ -185,6 +185,13 @@ code
 * Faster loading time of compressed data
 * Less bandwidth is used
 
+**DSA Used, Design Technique and Performance Analysis**
+* Huffman Coding: Greedy approach, Variable-length encoding
+  * Time Complexity: O(nlogn) for building the Huffman tree, where n is the number of symbols
+  * Space Complexity: O(n) for storing the Huffman tree and encoded data
+ 
+code
+
 <br>
 
 **10. Securing User Data Using Hashing Algorithms**
@@ -197,6 +204,13 @@ code
 
 **Market Benefits**  
 * Increased security and user trust.
+
+**DSA Used, Design Technique and Performance Analysis**
+* Hashing: Cryptographic hash function (SHA-256), one-way encryption.
+  * Time Complexity: O(n) where n is the length of the input data
+  * Space Complexity: O(1), fixed size output regardless of input
+ 
+code
 
 <br>
 
