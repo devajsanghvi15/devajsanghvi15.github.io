@@ -1,52 +1,82 @@
-#include <bits/stdc++.h>
+#include<iostream>
+#include <stdio.h>
+#include <math.h>
+#include<conio.h>
 using namespace std;
-void build(int arr[], int tree[], int low, int high, int parent)
+int getMid(int s, int e)
 {
-    if (low == high)
-    {
-        tree[parent] = arr[low];
+    return s + (e - s) / 2;
+}
+ 
+int getSumUtil(int *st, int ss, int se, int qs, int qe, int index)
+{
+    if (qs <= ss && qe >= se)
+        return st[index];
+    if (se < qs || ss > qe)
+        return 0;
+    int mid = getMid(ss, se);
+    return getSumUtil(st, ss, mid, qs, qe, 2 * index + 1) + getSumUtil(st, mid + 1, se, qs, qe, 2 * index + 2);
+}
+void updateValueUtil(int *st, int ss, int se, int i, int diff, int index)
+{
+    if (i < ss || i > se)
         return;
+    st[index] = st[index] + diff;
+    if (se != ss)
+    {
+        int mid = getMid(ss, se);
+        updateValueUtil(st, ss, mid, i, diff, 2 * index + 1);
+        updateValueUtil(st, mid+1, se, i, diff, 2 * index + 2);
     }
-    int mid = (low + high) >> 1;
-    build(arr, tree, low, mid, 2 * parent + 1);
-    build(arr, tree, mid + 1, high, 2 * parent + 2);
-    tree[parent] = min(tree[2 * parent + 1], tree[2 * parent + 2]);
 }
-
-int helper(int tree[], int low, int high, int a, int b, int parent)
+void updateValue(int arr[], int *st, int n, int i, int new_val)
 {
-    if (low > b or high < a)
-        return INT_MAX;
-    if (a <= low and b >= high)
-        return tree[parent];
-
-    int mid = (low + high) >> 1;
-
-    int left = helper(tree, low, mid, a, b, 2 * parent + 1);
-    int right = helper(tree, mid + 1, high, a, b, 2 * parent + 2);
-
-    return min(left, right);
+    if (i < 0 || i > n-1)
+    {
+        cout<<"Invalid Input";
+        return;
+    } 
+    int diff = new_val - arr[i];
+    arr[i] = new_val;
+    updateValueUtil(st, 0, n - 1, i, diff, 0);
 }
-int RMQ(int st[], int n, int a, int b)
+int getSum(int *st, int n, int qs, int qe)
 {
-    return helper(st, 0, n - 1, a, b, 0);
+    if (qs < 0 || qe > n-1 || qs > qe)
+    {
+        cout<<"Invalid Input"<<endl;
+        return -1;
+    }
+    return getSumUtil(st, 0, n - 1, qs, qe, 0);
 }
+int constructSTUtil(int arr[], int ss, int se, int *st, int si)
+{
+    if (ss == se)
+    {
+        st[si] = arr[ss];
+        return arr[ss];
+    }
+    int mid = getMid(ss, se);
+    st[si] =  constructSTUtil(arr, ss, mid, st, si*2+1) + constructSTUtil(arr, mid + 1, se, st, si*2+2);
+    return st[si];
+}
+ 
+int *constructST(int arr[], int n)
+{
+    int x = (int)(ceil(log2(n))); 
+    int max_size = 2 * (int)pow(2, x) - 1; 
+    int *st = new int[max_size];
+    constructSTUtil(arr, 0, n - 1, st, 0);
+    return st;
+}
+ 
 int main()
 {
-    int n;
-    int q;
-    cin >> n >> q;
-    int arr[n];
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-
-    int *tree = new int[4 * n + 1];
-    build(arr, tree, 0, n - 1, 0);
-
-    for (int i = 1; i <= q; i++)
-    {
-        int a, b;
-        cin >> a >> b;
-        cout << RMQ(tree, n, a-1, b-1)<<endl;
-    }
+    int arr[] = {1, 3, 5, 7, 9, 11};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int *st = constructST(arr, n);
+    cout<<"Sum of values in given range:"<<getSum(st, n, 1, 3)<<endl;
+    updateValue(arr, st, n, 1, 10);
+    cout<<"Updated sum of values in given range:"<<getSum(st, n, 1, 3);
+    getch();
 }
