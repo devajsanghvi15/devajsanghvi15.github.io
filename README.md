@@ -228,8 +228,8 @@ code
 
 **DSA Used, Design Technique and Performance Analysis**
 * Assignment Problem: Optimization technique
-  * Time Complexity: O(2^{N} * N) where N is the number of tasks or resources
-  * Space Complexity: O(N^{2}) where N is the number of tasks or resources
+  * Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources
+  * Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
 
 <br>
 
@@ -244,6 +244,11 @@ code
 **Market Benefits**  
 * Efficient content moderation
 
+**DSA Used, Design Technique and Performance Analysis**
+* Bloom filters: Use a fixed-size array and hash functions to achieve space-efficient set representation and quick lookups.
+  * Time Complexity: O(k) for insertion where k is the number of hash functions.
+  * Space Complexity: O(m) where m is the size of the array.
+
 <br>
 
 **13. Time Series Data Analysis**
@@ -256,6 +261,11 @@ code
 
 **Market Benefits**  
 * Better understanding of user behaviour and system performance.
+
+**DSA Used, Design Technique and Performance Analysis**
+* Segment Trees: Divide and conquer, Tree data structure
+  * Time Complexity: O(logN) for both query and update operations, where N is the number of elements
+  * Space Complexity: O(N) where N is the number of elements
 
 <br>
 
@@ -271,6 +281,11 @@ code
 * Users can find similar content.
 * Identify similar content to detect spam.
 
+**DSA Used, Design Technique and Performance Analysis**
+* LCS: Dynamic Programming
+  * Time Complexity: (O(m*n)), where m and n are lengths of sequences.
+  * Space Complexity: (O(m*n)) for storing the LCS table.
+
 <br>
 
 **15. Sort User's Following List**
@@ -280,5 +295,14 @@ code
 
 **Market Benefits**  
 * User experience enhancement as faster sorting results.
+
+**DSA Used, Design Technique and Performance Analysis**
+* Merge Sort: Divide and conquer
+  * Time Complexity: O(nlogn), where n is the number of elements.
+  * Space Complexity: O(n), extra array required for merging.
+* Quick Sort: Divide and conquer
+  * Time Complexity: O(nlogn) is the average time complexity and O(n<sup>2</sup>) is the worst case time complexity due to unbalanced partitions
+  * Space Complexity: O(logn) is average and O(n) is the worst case complexity, due to recursive calls on stack.
+
 
 <br>
