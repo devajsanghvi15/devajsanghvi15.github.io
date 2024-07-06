@@ -49,8 +49,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **DSA Used, Design Technique and Performance Analysis**
 * Tries: Tree data structure, Prefix tree
-  * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
-  * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+  * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word).
+  * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key.
  
 [Code for Tries](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/trie.cpp){:target="_blank"}
 
@@ -109,8 +109,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **DSA Used, Design Technique and Performance Analysis**
 * BFS: Level order traversal, queue data structure
-  * Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
-  * Space Complexity: O(V) for the queue used in BFS
+  * Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph.
+  * Space Complexity: O(V) for the queue used in BFS.
  
 [Code for BFS](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/BFS.cpp){:target="_blank"}
 
@@ -125,15 +125,15 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Dynamic nature of CDN (servers going online/offline).
 
 **Market Benefits**  
-* Cost reduction
-* Improved performance
+* Cost reduction.
+* Improved performance.
 
 **DSA Used, Design Technique and Performance Analysis**
 * Kruskal's Algorithm: Minimum Spanning Tree (MST), Greedy method
-  * Time Complexity: (O(ElogE))
-  * Space Complexity: (O(V+E))
+  * Time Complexity: (O(ElogE)).
+  * Space Complexity: (O(V+E)).
 * Prim's Algorithm: Minimum Spanning Tree (MST), Greedy method
-  * Time Complexity: (O((V+E)logV) with priority queue
+  * Time Complexity: (O((V+E)logV) with priority queue.
   * Space Complexity: (O(V+E)), where V is the number of vertices and E is the number of edges.
 
 [Code for Kruskal's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"} <br>
@@ -158,7 +158,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **DSA Used, Design Technique and Performance Analysis**
 * Hash Map: Efficient data storage and retrieval.
   * Time Complexity: O(1) is the average case complexity for insert and lookup operations, O(n) is the worst case complexity due to hash collisions, where n is the number of entries in the same bucket.
-  * Space Complexity: O(m) where m is the number of unique entries in the hash map
+  * Space Complexity: O(m) where m is the number of unique entries in the hash map.
 
 [Code for Lookup Table](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/lookupTable.cpp){:target="_blank"}
 
@@ -177,10 +177,10 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **DSA Used and Performance Analysis**
 * Priority Queue: Using Binary Heap
-  * Time Complexity: O(logn) for all operations except getMax() which has a time compplexity is O(1)
+  * Time Complexity: O(logn) for all operations except getMax() which has a time compplexity is O(1).
   * Space Complexity: O(n), where n is the number of elements in the queue.
 
-[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"}[[6]](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/)
+[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"} [[6]](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/){:target="_blank"}
 
 <br>
 
@@ -206,14 +206,14 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Quality of image or video might degrade significantly with high compression ratios.
 
 **Market Benefits**  
-* Less storage requirements
-* Faster loading time of compressed data
-* Less bandwidth is used
+* Less storage requirements.
+* Faster loading time of compressed data.
+* Less bandwidth is used.
 
 **DSA Used, Design Technique and Performance Analysis**
 * Huffman Coding: Greedy approach, Variable-length encoding
-  * Time Complexity: O(nlogn) for building the Huffman tree, where n is the number of symbols
-  * Space Complexity: O(n) for storing the Huffman tree and encoded data
+  * Time Complexity: O(nlogn) for building the Huffman tree, where n is the number of symbols.
+  * Space Complexity: O(n) for storing the Huffman tree and encoded data.
  
 [Code for Huffman Coding](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/huffmann.cpp){:target="_blank"}
 
@@ -232,8 +232,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **DSA Used, Design Technique and Performance Analysis**
 * Hashing: Cryptographic hash function (SHA-256), one-way encryption.
-  * Time Complexity: O(n) where n is the length of the input data
-  * Space Complexity: O(1), fixed size output regardless of input
+  * Time Complexity: O(n) where n is the length of the input data.
+  * Space Complexity: O(1), fixed size output regardless of input.
  
 [Code for cryptographic hash function](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/hashing.cpp){:target="_blank"}
 
@@ -253,8 +253,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **DSA Used, Design Technique and Performance Analysis**
 * Assignment Problem: Optimization technique
-  * Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources
-  * Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
+  * Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources.
+  * Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources.
 
 [Code for Assignment Problem](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/assignmentProblem.cpp){:target="_blank"}
 
@@ -269,7 +269,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Due to the probabilistic nature of bloom filters, appropriate content might be marked as inappropriate leading to user frustration.
 
 **Market Benefits**  
-* Efficient content moderation
+* Efficient content moderation.
 
 **DSA Used, Design Technique and Performance Analysis**
 * Bloom filters: Use a fixed-size array and hash functions to achieve space-efficient set representation and quick lookups.
@@ -293,8 +293,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **DSA Used, Design Technique and Performance Analysis**
 * Segment Trees: Divide and conquer, Tree data structure
-  * Time Complexity: O(logN) for both query and update operations, where N is the number of elements
-  * Space Complexity: O(N) where N is the number of elements
+  * Time Complexity: O(logN) for both query and update operations, where N is the number of elements.
+  * Space Complexity: O(N) where N is the number of elements.
 
 [Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}
 
@@ -334,7 +334,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(nlogn), where n is the number of elements.
   * Space Complexity: O(n), extra array required for merging.
 * Quick Sort: Divide and conquer
-  * Time Complexity: O(nlogn) is the average time complexity and O(n<sup>2</sup>) is the worst case time complexity due to unbalanced partitions
+  * Time Complexity: O(nlogn) is the average time complexity and O(n<sup>2</sup>) is the worst case time complexity due to unbalanced partitions.
   * Space Complexity: O(logn) is average and O(n) is the worst case complexity, due to recursive calls on stack.
 
 
