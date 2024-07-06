@@ -64,9 +64,9 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
   * Time Complexity: O(logn) on average for insertion and search operations (tree is balanced), O(n) in the worst case (tree is unbalanced), where n is the number of points in the tree.
   * Space Complexity: O(n) where n is the number of points stored in the tree.
  
-code
+[Code for KD-Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/KDTree.cpp){:target="_blank"}
 
-<br>
+<br><br>
 
 **3. Event Scheduling and Reminders**
 
@@ -84,9 +84,9 @@ code
   * Time Complexity: O(logn) on average for insertion, deletion and search operations, O(n) in the worst case, where n is the number of nodes in the tree.
   * Space Complexity: O(n) where n is the number of nodes in the tree.
  
-code
+[Code for Binary Search Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/BST.c){:target="_blank"}
 
-<br>
+<br><br>
 
 **4. Finding Connections**
 
@@ -103,8 +103,10 @@ code
 * BFS: Level order traversal, queue data structure
   * Time Complexity: O(V + E), where V is the number of vertices (nodes) and E is the number of edges in the graph
   * Space Complexity: O(V) for the queue used in BFS
+ 
+[Code for BFS](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/BFS.cpp){:target="_blank"}
 
-<br>
+<br><br>
 
 **5. Optimizing Content Delivery Network (CDN) Connections**
 
@@ -126,9 +128,10 @@ code
   * Time Complexity: (O((V+E)logV) with priority queue
   * Space Complexity: (O(V+E)), where V is the number of vertices and E is the number of edges.
 
-code
+[Code for Kruskal's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/kruskalAlgorithm.c){:target="_blank"} <br>
+[Code for Prim's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/prims.cpp){:target="_blank"}
 
-<br>
+<br><br>
 
 **6. Engagement Metrics Calculation**
 
@@ -149,7 +152,9 @@ code
   * Time Complexity: O(1) is the average case complexity for insert and lookup operations, O(n) is the worst case complexity due to hash collisions, where n is the number of entries in the same bucket.
   * Space Complexity: O(m) where m is the number of unique entries in the hash map
 
-<br>
+[Code for Lookup Table](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/lookupTable.cpp){:target="_blank"}
+
+<br><br>
 
 **7. Feed Generation and Ranking**
 
@@ -185,7 +190,7 @@ code
 **9. Image and Video Compression**
 
 **Use Case**  
-* Shorter codes can be assigned to frequently occurring patterns in pixel data or video frames as part of image and video compression. Huffman encoding can reduce file size without sacrificing visual quality significantly.
+* Shorter codes can be assigned to frequently occurring patterns in pixel data or video frames as part of image and video compression. Huffman coding can reduce file size without sacrificing visual quality significantly.
 
 **Challenges**  
 * Quality of image or video might degrade significantly with high compression ratios.
@@ -200,9 +205,9 @@ code
   * Time Complexity: O(nlogn) for building the Huffman tree, where n is the number of symbols
   * Space Complexity: O(n) for storing the Huffman tree and encoded data
  
-code
+[Code for Huffman Coding](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/huffmann.cpp){:target="_blank"}
 
-<br>
+<br><br>
 
 **10. Securing User Data Using Hashing Algorithms**
 
@@ -220,9 +225,9 @@ code
   * Time Complexity: O(n) where n is the length of the input data
   * Space Complexity: O(1), fixed size output regardless of input
  
-code
+[Code for cryptographic hash function](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/hashing.cpp){:target="_blank"}
 
-<br>
+<br><br>
 
 **11. Ad placement on Instagram**
 
@@ -241,7 +246,9 @@ code
   * Time Complexity: O(2<sup>N</sup> * N) where N is the number of tasks or resources
   * Space Complexity: O(N<sup>2</sup>) where N is the number of tasks or resources
 
-<br>
+[Code for Assignment Problem](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/assignmentProblem.cpp){:target="_blank"}
+
+<br><br>
 
 **12. Content Filtering and Moderation**
 
@@ -259,7 +266,9 @@ code
   * Time Complexity: O(k) for insertion where k is the number of hash functions.
   * Space Complexity: O(m) where m is the size of the array.
 
-<br>
+[Code for bloomfilter](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"}
+
+<br><br>
 
 **13. Time Series Data Analysis**
 
@@ -277,7 +286,9 @@ code
   * Time Complexity: O(logN) for both query and update operations, where N is the number of elements
   * Space Complexity: O(N) where N is the number of elements
 
-<br>
+[Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}
+
+<br><br>
 
 **14. Content Similarity Analysis**
 
@@ -296,7 +307,9 @@ code
   * Time Complexity: (O(m*n)), where m and n are lengths of sequences.
   * Space Complexity: (O(m*n)) for storing the LCS table.
 
-<br>
+[Code for Longest Common Subsequence](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/longestCommonSubsequence.cpp){:target="_blank"}
+
+<br><br>
 
 **15. Sort User's Following List**
 
@@ -315,4 +328,9 @@ code
   * Space Complexity: O(logn) is average and O(n) is the worst case complexity, due to recursive calls on stack.
 
 
-<br>
+[Code for Merge Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/mergeSort.cpp){:target="_blank"} <br>
+[Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
+
+<br><br>
+
+<br><br>
