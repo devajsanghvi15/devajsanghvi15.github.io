@@ -298,7 +298,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(logN) for both query and update operations, where N is the number of elements.
   * Space Complexity: O(N) where N is the number of elements.
 
-[Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}
+[Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"} [[9]](https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/){:target="_blank"}
 
 <br>
 
@@ -351,4 +351,5 @@ To handle such amount of large data, Instagram must be using advanced data struc
 [5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country <br><br>
 [6] GeeksforGeeks, “Search and Insertion in K Dimensional tree,” GeeksforGeeks, Jun. 13, 2023. https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/ <br><br>
 [7] GeeksforGeeks, “Priority Queue using Binary Heap,” GeeksforGeeks, Jun. 07, 2024. https://www.geeksforgeeks.org/priority-queue-using-binary-heap/ <br><br>
-[8] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ <br>
+[8] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ <br><br>
+[9] Manish, “C++ program to implement segment Tree,” Sanfoundry, May 19, 2022. https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/
