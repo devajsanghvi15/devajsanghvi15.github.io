@@ -46,7 +46,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
  
 [Code for Tries](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/trie.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **2. 🌎 Geolocation Services**
 
@@ -66,7 +66,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
  
 [Code for KD-Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/KDTree.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **3. 🔔 Event Scheduling and Reminders**
 
@@ -86,7 +86,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
  
 [Code for Binary Search Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/BST.c){:target="_blank"}
 
-<br><br>
+<br>
 
 **4. 🔗 Finding Connections**
 
@@ -106,7 +106,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
  
 [Code for BFS](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/BFS.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **5. 🌎 Optimizing Content Delivery Network (CDN) Connections**
 
@@ -131,7 +131,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 [Code for Kruskal's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/kruskalAlgoritm.c){:target="_blank"} <br>
 [Code for Prim's Algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/prims.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **6. 👍 Engagement Metrics Calculation**
 
@@ -154,7 +154,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 [Code for Lookup Table](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/lookupTable.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **7. 1️⃣ Feed Generation and Ranking**
 
@@ -207,7 +207,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
  
 [Code for Huffman Coding](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/huffmann.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **10. 🔒 Securing User Data Using Hashing Algorithms**
 
@@ -227,7 +227,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
  
 [Code for cryptographic hash function](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/hashing.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **11. 📢 Ad placement on Instagram**
 
@@ -248,7 +248,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 [Code for Assignment Problem](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/assignmentProblem.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **12. ❌ Content Filtering and Moderation**
 
@@ -268,7 +268,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 [Code for bloomfilter](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **13. ⏰ Time Series Data Analysis**
 
@@ -288,7 +288,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 [Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **14. 🔍 Content Similarity Analysis**
 
@@ -309,7 +309,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 [Code for Longest Common Subsequence](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/longestCommonSubsequence.cpp){:target="_blank"}
 
-<br><br>
+<br>
 
 **15. 📶 Sort User's Following List**
 
@@ -330,7 +330,3 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 [Code for Merge Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/mergeSort.cpp){:target="_blank"} <br>
 [Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
-
-<br><br>
-
-<br><br>
