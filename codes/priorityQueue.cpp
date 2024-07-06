@@ -1,109 +1,157 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
+#include <bits/stdc++.h>
 using namespace std;
 
-struct node
-{
-	int priority;
-	int info;
-	struct node *link;
-};
+int H[50];
+int size = -1;
 
-class Priority_Queue
+int parent(int i)
 {
-    private:
-        node *front;
-    public:
-        Priority_Queue()
-        {
-            front = NULL;
-        }
-        void insert(int item, int priority)
-        {
-            node *tmp, *q;
-            tmp = new node;
-            tmp->info = item;
-            tmp->priority = priority;
-            if (front == NULL || priority < front->priority)
-            {
-                tmp->link = front;
-                front = tmp;
-            }
-            else
-            {
-                q = front;
-                while (q->link != NULL && q->link->priority <= priority)
-                    q=q->link;
-                tmp->link = q->link;
-                q->link = tmp;
-            }
-        }
-        void del()
-        {
-            node *tmp;
-            if(front == NULL)
-                cout<<"Queue Underflow\n";
-            else
-            {
-                tmp = front;
-                cout<<"Deleted item is: "<<tmp->info<<endl;
-                front = front->link;
-                free(tmp);
-            }
-        }
-        void display()
-        {
-            node *ptr;
-            ptr = front;
-            if (front == NULL)
-                cout<<"Queue is empty\n";
-            else
-            {	cout<<"Queue is :\n";
-                cout<<"Priority       Item\n";
-                while(ptr != NULL)
-                {
-                    cout<<ptr->priority<<"                 "<<ptr->info<<endl;
-                    ptr = ptr->link;
-                }
-            }
-        }
-};
+    return (i - 1) / 2;
+}
+
+int leftChild(int i)
+{
+    return ((2 * i) + 1);
+}
+
+int rightChild(int i)
+{
+    return ((2 * i) + 2);
+}
+
+
+void shiftUp(int i)
+{
+    while (i > 0 && H[parent(i)] < H[i]) {
+
+        swap(H[parent(i)], H[i]);
+
+        i = parent(i);
+    }
+}
+
+void shiftDown(int i)
+{
+    int maxIndex = i;
+
+    int l = leftChild(i);
+
+    if (l <= size && H[l] > H[maxIndex]) {
+        maxIndex = l;
+    }
+
+    int r = rightChild(i);
+
+    if (r <= size && H[r] > H[maxIndex]) {
+        maxIndex = r;
+    }
+
+    if (i != maxIndex) {
+        swap(H[i], H[maxIndex]);
+        shiftDown(maxIndex);
+    }
+}
+
+void insert(int p)
+{
+    size = size + 1;
+    H[size] = p;
+
+    shiftUp(size);
+}
+
+int extractMax()
+{
+    int result = H[0];
+
+    H[0] = H[size];
+    size = size - 1;
+
+    shiftDown(0);
+    return result;
+}
+
+void changePriority(int i, int p)
+{
+    int oldp = H[i];
+    H[i] = p;
+
+    if (p > oldp) {
+        shiftUp(i);
+    }
+    else {
+        shiftDown(i);
+    }
+}
+
+int getMax()
+{
+
+    return H[0];
+}
+
+void remove(int i)
+{
+    H[i] = getMax() + 1;
+
+    shiftUp(i);
+
+    extractMax();
+}
 
 int main()
 {
-    int choice, item, priority;
-    Priority_Queue pq; 
-    do
-    {
-        cout<<"1.Insert\n";
-        cout<<"2.Delete\n";
-        cout<<"3.Display\n";
-        cout<<"4.Quit\n";
-        cout<<"Enter your choice : "; 
-        cin>>choice;
-        switch(choice)
-        {
-        case 1:
-            cout<<"Input the item value to be added in the queue : ";
-            cin>>item;
-            cout<<"Enter its priority : ";
-            cin>>priority;
-            pq.insert(item, priority);
-            break;
-        case 2:
-            pq.del();
-            break;
-        case 3:
-            pq.display();
-            break;
-        case 4:
-            break;
-        default :
-            cout<<"Wrong choice\n";
-        }
+    insert(45);
+    insert(20);
+    insert(14);
+    insert(12);
+    insert(31);
+    insert(7);
+    insert(11);
+    insert(13);
+    insert(7);
+
+    int i = 0;
+
+    cout << "Priority Queue : ";
+    while (i <= size) {
+        cout << H[i] << " ";
+        i++;
     }
-    while(choice != 4);
+
+    cout << "\n";
+
+    cout << "Node with maximum priority : "
+         << extractMax() << "\n";
+
+    cout << "Priority queue after "
+         << "extracting maximum : ";
+    int j = 0;
+    while (j <= size) {
+        cout << H[j] << " ";
+        j++;
+    }
+
+    cout << "\n";
+
+    changePriority(2, 49);
+    cout << "Priority queue after "
+         << "priority change : ";
+    int k = 0;
+    while (k <= size) {
+        cout << H[k] << " ";
+        k++;
+    }
+
+    cout << "\n";
+
+    remove(3);
+    cout << "Priority queue after "
+         << "removing the element : ";
+    int l = 0;
+    while (l <= size) {
+        cout << H[l] << " ";
+        l++;
+    }
     return 0;
 }
