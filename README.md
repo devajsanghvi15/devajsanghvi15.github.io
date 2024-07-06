@@ -342,4 +342,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 [Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
 
 ## References
-content
+[1] Topic: Instagram. (2024a, April 24). Statista. https://www.statista.com/topics/1882/instagram/
+[2] Santora, J. (2023, December 22). 16 key Instagram Reels Statistics for Marketers to know. Influencer Marketing Hub. https://influencermarketinghub.com/instagram-reels-stats/
+[3] Marr, B. (2021, July 13). How much data do we create every day? The Mind-Blowing Stats Everyone should read. Bernard Marr. https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/
+[4] Instagram Users by country [Jun 2024 Update] | Oberlo. (n.d.). Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country
+[5] Instagram Revenue and Usage Statistics (2024) - Business of Apps. (2024, April 18). Business of Apps. https://www.businessofapps.com/data/instagram-statistics/
