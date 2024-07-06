@@ -23,7 +23,10 @@
 Welcome to my Instagram Portfolio, where I present the knowledge I've gained from the Algorithmic Problem Solving (APS) course taught at KLE Technological University. During this course, I explored the various algorithms and data structures, focusing on their practical applications in real-world situations. This portfolio showcases these learnings through various business cases, each highlighting a different aspect of algorithmic problem-solving and its importance in enhancing social media management.
 
 ## Why Instagram?
-content
+Instagram is a widely popular social media platform originally launched in 2010, primarily focused on sharing photos and videos. Over the years, Instagram has expanded its features to include stories, IGTV, Reels and many more. With over 2 billion monthly active users [1](https://www.statista.com/topics/1882/instagram/), 46,740 photos are posted per minute by users [2](https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/). Instagram generated an estimated $60.3 billion revenue in 2023, accounting for almost 44% of Facebook’s total revenue [3](https://www.businessofapps.com/data/instagram-statistics/). Instagram users watch 17.6 million hours of reels per day [4](https://influencermarketinghub.com/instagram-reels-stats/). Leading countries by Instagram users are India, USA, Brazil, Indonesia, Turkey [5](https://www.oberlo.com/statistics/instagram-users-by-country).
+
+To handle such amount of large data, Instagram must be using advanced data structures and algorithms under the hood. By examining existing and potential use cases for these technologies, this portfolio aims to provide a comprehensive understanding of their impact on the platform.
+
 
 ## Objectives
 * Showcase the algorithms and data structures learned during APS.
