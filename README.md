@@ -167,10 +167,12 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 **Market Benefits**  
 * Real-time updates as heap supports fast insertion and deletion operations.
 
-**DSA Used, Design Technique and Performance Analysis**
-* Priority Queue: .
-  * Time Complexity: 
-  * Space Complexity: .
+**DSA Used and Performance Analysis**
+* Priority Queue:
+  * Time Complexity: O(1) for deletion and O(n) for insertion. 
+  * Space Complexity: O(n), where n is the number of elements in the queue.
+
+[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"}
 
 <br>
 
