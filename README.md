@@ -176,11 +176,11 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Real-time updates as heap supports fast insertion and deletion operations.
 
 **DSA Used and Performance Analysis**
-* Priority Queue:
-  * Time Complexity: O(1) for deletion and O(n) for insertion. 
+* Priority Queue: Using Binary Heap
+  * Time Complexity: O(logn) for all operations except getMax() which has a time compplexity is O(1)
   * Space Complexity: O(n), where n is the number of elements in the queue.
 
-[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"}
+[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"}[[6]](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/)
 
 <br>
 
@@ -346,4 +346,5 @@ To handle such amount of large data, Instagram must be using advanced data struc
 [2] B. Marr, “How much data do we create every day? The Mind-Blowing Stats Everyone should read,” Bernard Marr, Jul. 13, 2021. https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/ <br><br>
 [3] “Instagram Revenue and Usage Statistics (2024) - Business of Apps,” Business of Apps, Apr. 18, 2024. https://www.businessofapps.com/data/instagram-statistics/ <br><br>
 [4] J. Santora, “16 key Instagram Reels Statistics for Marketers to know,” Influencer Marketing Hub, Dec. 22, 2023. https://influencermarketinghub.com/instagram-reels-stats/ <br><br>
-[5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country <br>
+[5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country <br><br>
+[6] GeeksforGeeks, “Priority Queue using Binary Heap,” GeeksforGeeks, Jun. 07, 2024. https://www.geeksforgeeks.org/priority-queue-using-binary-heap/ <br>
