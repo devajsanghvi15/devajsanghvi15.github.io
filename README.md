@@ -226,6 +226,11 @@ code
 * Higher revenue.
 * Increased ad awareness.
 
+**DSA Used, Design Technique and Performance Analysis**
+* Assignment Problem: Optimization technique
+  * Time Complexity: O(2^{N} * N) where N is the number of tasks or resources
+  * Space Complexity: O(N^{2}) where N is the number of tasks or resources
+
 <br>
 
 **12. Content Filtering and Moderation**
