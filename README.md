@@ -164,8 +164,8 @@ code
 
 **DSA Used, Design Technique and Performance Analysis**
 * Priority Queue: .
-  * Time Complexity: O(logn) for insertion and deletion operations.
-  * Space Complexity: O(n) where n is the number of elements.
+  * Time Complexity: 
+  * Space Complexity: .
 
 <br>
 
