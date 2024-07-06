@@ -1,5 +1,3 @@
-title: Insta Insight
-
 ## Course Information
 
 * Course Name: Algorithmic Problem Solving
