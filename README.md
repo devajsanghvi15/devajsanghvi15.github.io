@@ -144,18 +144,28 @@ code
 * Reduces computational load.
 * Offering fast analytics can differentiate Instagram from other competitors.
 
+**DSA Used, Design Technique and Performance Analysis**
+* Hash Map: Efficient data storage and retrieval.
+  * Time Complexity: O(1) is the average case complexity for insert and lookup operations, O(n) is the worst case complexity due to hash collisions, where n is the number of entries in the same bucket.
+  * Space Complexity: O(m) where m is the number of unique entries in the hash map
+
 <br>
 
 **7. Feed Generation and Ranking**
 
 **Use Case**  
-* Each post is assigned a priority based on factors such as recency, relevance to the user's interests, and engagement metrics (like likes and comments).  Priority queue (heap) can be used to manage and prioritize posts for each user's feed.
+* Each post is assigned a priority based on factors such as recency, relevance to the user's interests, and engagement metrics (like likes and comments).  Priority queue can be used to manage and prioritize posts for each user's feed.
 
 **Challenges**  
 * Dynamic nature of data (user preference changes) poses a challenge to decide the priority.
 
 **Market Benefits**  
 * Real-time updates as heap supports fast insertion and deletion operations.
+
+**DSA Used, Design Technique and Performance Analysis**
+* Priority Queue: .
+  * Time Complexity: O(logn) for insertion and deletion operations.
+  * Space Complexity: O(n) where n is the number of elements.
 
 <br>
 
