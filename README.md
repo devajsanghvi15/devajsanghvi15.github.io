@@ -44,9 +44,9 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
   * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
  
-Code
+[Code for Tries](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/trie.cpp){:target="_blank"}
 
-<br>
+<br><br>
 
 **2. Geolocation Services**
 
