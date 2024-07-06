@@ -22,8 +22,8 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 
 ## Objectives
 * Showcase the algorithms and data structures learned during APS.
-- Illustrate how algorithmic problem solving techniques can be applied to optimize and enhance various aspects of social media management.
-+ Provide a clear understanding of how advanced algorithms and data structures can solve complex problems and improve efficiency in social media platforms.
+* Illustrate how algorithmic problem solving techniques can be applied to optimize and enhance various aspects of social media management.
+* Provide a clear understanding of how advanced algorithms and data structures can solve complex problems and improve efficiency in social media platforms.
 * Serve as an educational resource for others interested in understanding the application of algorithms and data structures in social media platforms.
 
 ## Business Cases
@@ -39,7 +39,7 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 **Market Benefits**  
 * Allows users to find all hashtags that start with a given prefix efficiently.
 
-**DSA Used and Performance Analysis**
+**DSA Used, Design Technique and Performance Analysis**
 * Tries: Tree data structure, Prefix tree
   * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
   * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
@@ -58,6 +58,13 @@ Code
 
 **Market Benefits**  
 * Improved user experience by providing location relevant content.
+
+**DSA Used, Design Technique and Performance Analysis**
+* KD-Tree: Divide and conquer, Tree data structure
+  * Time Complexity: O(logn) for insertion and search operations, where n is the number of points in the tree.
+  * Space Complexity: O(n) where n is the number of points stored in the tree.
+ 
+code
 
 <br>
 
