@@ -39,6 +39,11 @@ Welcome to my Instagram Portfolio, where I present the knowledge I've gained fro
 **Market Benefits**  
 * Allows users to find all hashtags that start with a given prefix efficiently.
 
+**DSA Used and Performance Analysis**
+* Tries: Tree data structure, Prefix tree
+  * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word)
+  * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key
+
 <br>
 
 **2. Geolocation Services**
