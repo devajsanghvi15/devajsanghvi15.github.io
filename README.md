@@ -276,7 +276,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(k) for insertion where k is the number of hash functions.
   * Space Complexity: O(m) where m is the size of the array.
 
-[Code for bloomfilter](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [7](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
+[Code for bloom filters](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [[7]](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
 
 <br>
 
