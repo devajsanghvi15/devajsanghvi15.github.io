@@ -91,9 +91,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![three_mediumcom](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/7e610f5d-c1e4-4dc3-9265-031644f186b0)
 <div style="text-align: center;">
-  <i>Binary Search Tree </i> [[7]](https://medium.com/swlh/binary-search-tree-in-javascript-31cb74d8263b)
+  <i>Binary Search Tree <a href="https://medium.com/swlh/binary-search-tree-in-javascript-31cb74d8263b" target="_blank">[7]</a></i>
 </div>
-
 
 **Challenges**  
 * Cannot support duplicate keys (in this case same timestamp for two events).
