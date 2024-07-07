@@ -43,7 +43,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Users might not want to type the entire hashtag when they search for posts related to it (especially when the hashtag is big). Tries can be used for autocomplete functionality in hashtag searches. They efficiently store and retrieve strings based on prefixes, allowing Instagram to suggest completions as users type.
 
-![one](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/bd8580bc-ee22-4fc9-921b-1a02d64a5c87)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/bd8580bc-ee22-4fc9-921b-1a02d64a5c87" alt="one" />
+</div>
 
 **Challenges**  
 * Using tries with very long strings can be impractical.
