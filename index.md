@@ -1,5 +1,5 @@
 **Course Name:** Algorithmic Problem Solving  
-**Course Code:** 23ECSE309 
+**Course Code:** 23ECSE309  
 **Course Instructor:** Prakash Hegade  
 **Name:** Devaj Sanghvi  
 **USN:** 01FE21BCI055  
