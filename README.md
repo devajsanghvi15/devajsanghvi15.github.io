@@ -43,6 +43,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Users might not want to type the entire hashtag when they search for posts related to it (especially when the hashtag is big). Tries can be used for autocomplete functionality in hashtag searches. They efficiently store and retrieve strings based on prefixes, allowing Instagram to suggest completions as users type.
 
+![one](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/bd8580bc-ee22-4fc9-921b-1a02d64a5c87)
+
 **Challenges**  
 * Using tries with very long strings can be impractical.
 
@@ -62,6 +64,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **Use Case**  
 * Instagram uses KD-Trees to efficiently store and query geotagged content (posts, stories) based on proximity to a user's location, enhancing the user experience by surfacing location-relevant content.
+
+![two](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/cddcc71c-3edb-4a59-9e42-c26d41363d15)
 
 **Challenges**  
 * More space required to maintain tree, complexity of tree construction increases if data dimensionality increases (beyond latitude and longitude).
@@ -83,6 +87,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Binary Search Trees are employed to manage and search scheduled events and reminders within Instagram's notification systems. BSTs facilitate efficient insertion, deletion, and retrieval operations based on event timestamps.
 
+![three_mediumcom](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/7e610f5d-c1e4-4dc3-9265-031644f186b0)
+
 **Challenges**  
 * Cannot support duplicate keys (in this case same timestamp for two events).
 
@@ -103,6 +109,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Finding all direct connections (followers/following) to understand the immediate network around the user. BFS can be used for this purpose where a node is a user and the nodes connected to it are followers.
 
+![four](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c37a5b0e-bb5c-4f06-aea4-ae12b0936845)
+
 **Challenges**  
 * The graph would consume lot of space.
 
@@ -122,6 +130,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **Use Case**  
 * Instagram has a network of servers distributed globally. Minimum spanning tree algorithms (Prim's, Kruskal's) can be used to optimize the connections between these servers, minimizing the total communication cost and ensure efficient content delivery.
+
+![mst_medium](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c5fbd912-622a-4240-b89b-ebe90c73986d)
 
 **Challenges**  
 * Dynamic nature of CDN (servers going online/offline).
@@ -148,6 +158,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Content creators on Instagram might want to know how well their post is performing (likes, comments, shares). The frequency of these queries might be high, so precomputing the number of likes, comments, shares for a particular interval(day, week, month) and storing them in a lookup table might be beneficial.
 
+![six](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/a824990a-b4b0-44d4-a9aa-1a1ddbca7f60)
+
 **Challenges**  
 * Requires lot of storage for large number of posts over various time intervals.
 * Lookup table needs to be updated frequently to maintain data consistency between source and the table.
@@ -171,6 +183,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Each post is assigned a priority based on factors such as recency, relevance to the user's interests, and engagement metrics (like likes and comments).  Priority queue can be used to manage and prioritize posts for each user's feed.
 
+![seven](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/04c90b45-3970-4e4d-bde4-0d3625b5a569)
+
 **Challenges**  
 * Dynamic nature of data (user preference changes) poses a challenge to decide the priority.
 
@@ -190,6 +204,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **Use Case**  
 * Instagram employs a deque to manage the sequence of stories that users view, enabling seamless navigation between previous and next stories for an enhanced user experience. New stories are added to the rear of the deque as users start viewing them. Users can navigate through stories using operations to move to the next story (remove from the front) or return to the previous story (add back to the front).
+
+![deque_learnersbucket](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/01bd7123-a495-482b-b1d2-4f5947ecdcd5)
 
 **Challenges**  
 * Handling user interactions (such as skips or returns) that affect the story viewing sequence in real-time.
@@ -211,6 +227,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **Use Case**  
 * Shorter codes can be assigned to frequently occurring patterns in pixel data or video frames as part of image and video compression. Huffman coding can reduce file size without sacrificing visual quality significantly.
+
+![nine](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/f0b23aa1-1d4c-4dd8-b322-487e8c6de723)
 
 **Challenges**  
 * Quality of image or video might degrade significantly with high compression ratios.
@@ -234,6 +252,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Securing user data and authenticating accounts is crucial for Instagram to maintain user trust and protect against unauthorized access. Passwords are hashed using cryptographic algorithms before being stored, ensuring protection even if databases are compromised.
 
+![ten](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/a6de1e76-4858-4189-8869-06043ed01ae7)
+
 **Challenges**  
 * Protecting user data and authenticating accounts.
 
@@ -253,6 +273,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **Use Case**  
 * Advertising on instagram relies on efficient allocation of ad placements within user feeds, stories, and explore pages to maximize revenue and user engagement. The Assignment Problem can help determine the optimal assignment of advertisements to available ad slots across the platform.
+
+![ad_nanos](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/0e9ece15-61ce-4ca3-917e-b785ca6d3a5f)
 
 **Challenges**  
 * Maximize user engagement and ad revenue.
@@ -274,6 +296,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **Use Case**  
 * Bloom filters can be used to store hashes of known inappropriate words, phrases, or patterns. When filtering user-generated content (like comments or posts), new content can be quickly checked against the Bloom filter. If the filter indicates a match, further, more intensive checks can be performed.
+
+![bloomfilter_linkedin](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/ed749ba7-1c80-4c28-8227-ce7989ff48e2)
 
 **Challenges**  
 * Due to the probabilistic nature of bloom filters, appropriate content might be marked as inappropriate leading to user frustration.
@@ -314,6 +338,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 **Use Case**  
 * Longest Common Subsequence (LCS) is used to analyze the similarity between different pieces of content (captions, comments, bios). it helps in recommending similar posts to users, identifying trends, and enhancing search functionalities.
+
+![lcs_boardInfinity](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c9cc0cd4-3eff-4756-adf3-32c1871e870f)
 
 **Challenges**  
 * Computationally expensive for long sequences.
