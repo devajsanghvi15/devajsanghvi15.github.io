@@ -1,5 +1,8 @@
+# theme: jekyll-theme-leap-day
+title: Insta Insight
+description: A portfolio site focused on illustrating the integration of advanced data structures and algorithms in Instagram's ecosystem
+show_downloads: false
+theme: jekyll-theme-cayman
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: [Insta Insight]
-description: [A portfolio site focused on illustrating the integration of advanced data structures and algorithms in Instagram's ecosystem.]
