@@ -145,9 +145,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c5fbd912-622a-4240-b89b-ebe90c73986d" alt="mst_medium" />
 </div>
 <div style="text-align: center;">
-  <i>Minimum Spanning Tree</i>
+  <i>Minimum Spanning Tree <a href="https://medium.com/@bparash16/a-3bb03592c74b" target="_blank">[8]</a></i>
 </div>
-
 **Challenges**  
 * Dynamic nature of CDN (servers going online/offline).
 
@@ -216,7 +215,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(logn) for all operations except getMax() which has a time compplexity is O(1).
   * Space Complexity: O(n), where n is the number of elements in the queue.
 
-[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"} [[7]](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/){:target="_blank"}
+[Code for Priority Queue](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/priorityQueue.cpp){:target="_blank"} [[9]](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/){:target="_blank"}
 
 <br>
 
@@ -227,7 +226,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![deque_learnersbucket](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/6784e600-ebc0-4c2d-8d2a-a43830608429)
 <div style="text-align: center;">
-  <i>Basic deque operations</i>
+  <i>Basic deque operations <a href="https://learnersbucket.com/tutorials/data-structures/implement-deque-data-structure-in-javascript/" target="_blank">[10]</a></i>
 </div>
 
 **Challenges**  
@@ -241,7 +240,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: Insertion and deletion operations take O(1) time complexity.
   * Space Complexity: O(n), where n is the number of elements in the deque.
 
-[Code for Deque](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/deque.c){:target="_blank"} [[8]](https://www.javatpoint.com/ds-deque){:target="_blank"}
+[Code for Deque](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/deque.c){:target="_blank"} [[11]](https://www.javatpoint.com/ds-deque){:target="_blank"}
 
 
 <br>
@@ -324,8 +323,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![bloomfilter_linkedin](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/ed749ba7-1c80-4c28-8227-ce7989ff48e2)
 <div style="text-align: center;">
-  <i>Working of Bloom Filter</i>
+  <i>Working of Bloom Filter <a href="https://www.linkedin.com/pulse/bloom-filter-probabilistic-data-structure-gaurav-pandey" target="_blank">[12]</a></i>
 </div>
+
 
 **Challenges**  
 * Due to the probabilistic nature of bloom filters, appropriate content might be marked as inappropriate leading to user frustration.
@@ -338,7 +338,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(k) for insertion where k is the number of hash functions.
   * Space Complexity: O(m) where m is the size of the array.
 
-[Code for bloom filters](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [[9]](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
+[Code for bloom filters](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/bloomFilter.cpp){:target="_blank"} [[13]](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/){:target="_blank"}
 
 <br>
 
@@ -358,7 +358,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(logN) for both query and update operations, where N is the number of elements.
   * Space Complexity: O(N) where N is the number of elements.
 
-[Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"} [[10]](https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/){:target="_blank"}
+[Code for Segment Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/SegmentTree.cpp){:target="_blank"} [[14]](https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/){:target="_blank"}
 
 <br>
 
@@ -369,8 +369,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![lcs_boardInfinity](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c9cc0cd4-3eff-4756-adf3-32c1871e870f)
 <div style="text-align: center;">
-  <i>Longest Common Subsequence</i>
+  <i>Longest Common Subsequence <a href="https://www.boardinfinity.com/blog/longest-common-subsequence-problem-solved/" target="_blank">[15]</a></i>
 </div>
+
 
 **Challenges**  
 * Computationally expensive for long sequences.
