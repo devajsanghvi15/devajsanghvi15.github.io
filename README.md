@@ -90,6 +90,10 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Binary Search Trees are employed to manage and search scheduled events and reminders within Instagram's notification systems. BSTs facilitate efficient insertion, deletion, and retrieval operations based on event timestamps.
 
 ![three_mediumcom](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/7e610f5d-c1e4-4dc3-9265-031644f186b0)
+<div style="text-align: center;">
+  Binary Search Tree
+</div>
+
 
 **Challenges**  
 * Cannot support duplicate keys (in this case same timestamp for two events).
@@ -103,6 +107,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Space Complexity: O(n) where n is the number of nodes in the tree.
  
 [Code for Binary Search Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/BST.c){:target="_blank"}
+<div style="text-align: center;">
+  Binary Search Tree
+</div>
 
 <br>
 
@@ -113,6 +120,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 <div style="text-align: center;">
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c37a5b0e-bb5c-4f06-aea4-ae12b0936845" alt="four" />
+</div>
+<div style="text-align: center;">
+  A simple graph depicting users and whom they are following
 </div>
 
 **Challenges**  
@@ -137,6 +147,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 <div style="text-align: center;">
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c5fbd912-622a-4240-b89b-ebe90c73986d" alt="mst_medium" />
+</div>
+<div style="text-align: center;">
+  Minimum Spanning Tree
 </div>
 
 **Challenges**  
@@ -165,6 +178,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Content creators on Instagram might want to know how well their post is performing (likes, comments, shares). The frequency of these queries might be high, so precomputing the number of likes, comments, shares for a particular interval(day, week, month) and storing them in a lookup table might be beneficial.
 
 ![six](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/a824990a-b4b0-44d4-a9aa-1a1ddbca7f60)
+<div style="text-align: center;">
+  Sequence diagram illustrating the use of lookup table to store engagement metrics
+</div>
 
 **Challenges**  
 * Requires lot of storage for large number of posts over various time intervals.
@@ -213,7 +229,10 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Instagram employs a deque to manage the sequence of stories that users view, enabling seamless navigation between previous and next stories for an enhanced user experience. New stories are added to the rear of the deque as users start viewing them. Users can navigate through stories using operations to move to the next story (remove from the front) or return to the previous story (add back to the front).
 
-![deque_learnersbucket](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/01bd7123-a495-482b-b1d2-4f5947ecdcd5)
+![deque_learnersbucket](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/6784e600-ebc0-4c2d-8d2a-a43830608429)
+<div style="text-align: center;">
+  Basic deque operations
+</div>
 
 **Challenges**  
 * Handling user interactions (such as skips or returns) that affect the story viewing sequence in real-time.
@@ -308,6 +327,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Bloom filters can be used to store hashes of known inappropriate words, phrases, or patterns. When filtering user-generated content (like comments or posts), new content can be quickly checked against the Bloom filter. If the filter indicates a match, further, more intensive checks can be performed.
 
 ![bloomfilter_linkedin](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/ed749ba7-1c80-4c28-8227-ce7989ff48e2)
+<div style="text-align: center;">
+  Working of Bloom Filter
+</div>
 
 **Challenges**  
 * Due to the probabilistic nature of bloom filters, appropriate content might be marked as inappropriate leading to user frustration.
