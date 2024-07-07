@@ -111,7 +111,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Finding all direct connections (followers/following) to understand the immediate network around the user. BFS can be used for this purpose where a node is a user and the nodes connected to it are followers.
 
-![four](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c37a5b0e-bb5c-4f06-aea4-ae12b0936845)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c37a5b0e-bb5c-4f06-aea4-ae12b0936845" alt="four" />
+</div>
 
 **Challenges**  
 * The graph would consume lot of space.
@@ -133,7 +135,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Instagram has a network of servers distributed globally. Minimum spanning tree algorithms (Prim's, Kruskal's) can be used to optimize the connections between these servers, minimizing the total communication cost and ensure efficient content delivery.
 
-![mst_medium](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c5fbd912-622a-4240-b89b-ebe90c73986d)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c5fbd912-622a-4240-b89b-ebe90c73986d" alt="mst_medium" />
+</div>
 
 **Challenges**  
 * Dynamic nature of CDN (servers going online/offline).
@@ -185,7 +189,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Each post is assigned a priority based on factors such as recency, relevance to the user's interests, and engagement metrics (like likes and comments).  Priority queue can be used to manage and prioritize posts for each user's feed.
 
-![seven](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/04c90b45-3970-4e4d-bde4-0d3625b5a569)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/04c90b45-3970-4e4d-bde4-0d3625b5a569" alt="seven" />
+</div>
 
 **Challenges**  
 * Dynamic nature of data (user preference changes) poses a challenge to decide the priority.
@@ -254,7 +260,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 **Use Case**  
 * Securing user data and authenticating accounts is crucial for Instagram to maintain user trust and protect against unauthorized access. Passwords are hashed using cryptographic algorithms before being stored, ensuring protection even if databases are compromised.
 
-![ten](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/a6de1e76-4858-4189-8869-06043ed01ae7)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/a6de1e76-4858-4189-8869-06043ed01ae7" alt="ten" />
+</div>
 
 **Challenges**  
 * Protecting user data and authenticating accounts.
