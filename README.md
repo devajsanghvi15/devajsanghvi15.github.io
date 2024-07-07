@@ -91,7 +91,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![three_mediumcom](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/7e610f5d-c1e4-4dc3-9265-031644f186b0)
 <div style="text-align: center;">
-  Binary Search Tree
+  <i>Binary Search Tree</i>
 </div>
 
 
@@ -107,9 +107,6 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Space Complexity: O(n) where n is the number of nodes in the tree.
  
 [Code for Binary Search Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/BST.c){:target="_blank"}
-<div style="text-align: center;">
-  Binary Search Tree
-</div>
 
 <br>
 
@@ -122,7 +119,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c37a5b0e-bb5c-4f06-aea4-ae12b0936845" alt="four" />
 </div>
 <div style="text-align: center;">
-  A simple graph depicting users and whom they are following
+  <i>A simple graph depicting users and whom they are following</i>
 </div>
 
 **Challenges**  
@@ -149,7 +146,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c5fbd912-622a-4240-b89b-ebe90c73986d" alt="mst_medium" />
 </div>
 <div style="text-align: center;">
-  Minimum Spanning Tree
+  <i>Minimum Spanning Tree</i>
 </div>
 
 **Challenges**  
@@ -179,7 +176,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![six](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/a824990a-b4b0-44d4-a9aa-1a1ddbca7f60)
 <div style="text-align: center;">
-  Sequence diagram illustrating the use of lookup table to store engagement metrics
+  <i>Sequence diagram illustrating the use of lookup table to store engagement metrics</i>
 </div>
 
 **Challenges**  
@@ -231,7 +228,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![deque_learnersbucket](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/6784e600-ebc0-4c2d-8d2a-a43830608429)
 <div style="text-align: center;">
-  Basic deque operations
+  <i>Basic deque operations</i>
 </div>
 
 **Challenges**  
@@ -328,7 +325,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![bloomfilter_linkedin](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/ed749ba7-1c80-4c28-8227-ce7989ff48e2)
 <div style="text-align: center;">
-  Working of Bloom Filter
+  <i>Working of Bloom Filter</i>
 </div>
 
 **Challenges**  
