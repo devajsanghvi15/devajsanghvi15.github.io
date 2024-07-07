@@ -91,7 +91,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 ![three_mediumcom](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/7e610f5d-c1e4-4dc3-9265-031644f186b0)
 <div style="text-align: center;">
-  <i>Binary Search Tree</i>
+  <i>Binary Search Tree </i> [[7]](https://medium.com/swlh/binary-search-tree-in-javascript-31cb74d8263b)
 </div>
 
 
@@ -369,6 +369,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Longest Common Subsequence (LCS) is used to analyze the similarity between different pieces of content (captions, comments, bios). it helps in recommending similar posts to users, identifying trends, and enhancing search functionalities.
 
 ![lcs_boardInfinity](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c9cc0cd4-3eff-4756-adf3-32c1871e870f)
+<div style="text-align: center;">
+  <i>Longest Common Subsequence</i>
+</div>
 
 **Challenges**  
 * Computationally expensive for long sequences.
