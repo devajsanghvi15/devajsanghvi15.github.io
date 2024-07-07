@@ -21,6 +21,8 @@
 
 ## Introduction
 Welcome to my Instagram Portfolio, where I present the knowledge I've gained from the Algorithmic Problem Solving (APS) course taught at KLE Technological University. During this course, I explored the various algorithms and data structures, focusing on their practical applications in real-world situations. This portfolio showcases these learnings through various business cases, each highlighting a different aspect of algorithmic problem-solving and its importance in enhancing social media management.
+![diagram-export-7-7-2024-7_44_55-PM](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/c4e2530f-69cc-496e-8396-c1bb1976c341)
+![diagram-export-7-7-2024-7_45_00-PM](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/d01cd4c7-24cb-46c9-a3d9-88092cdb0da3)
 
 ## Why Instagram?
 ![Instagram-algorithm](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/95ecb0d4-9c47-42e2-8783-44a0a1f029d7)
