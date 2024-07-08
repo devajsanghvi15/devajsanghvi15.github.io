@@ -40,6 +40,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 <div style="text-align: center;">
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/bd8580bc-ee22-4fc9-921b-1a02d64a5c87" alt="one" />
 </div>
+<div style="text-align: center;">
+  <i>Flow diagram illustrating the process of hashtag autocompletion</i>
+</div>
 
 **Challenges**  
 * Using tries with very long strings can be impractical.
@@ -62,6 +65,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Instagram uses KD-Trees to efficiently store and query geotagged content (posts, stories) based on proximity to a user's location, enhancing the user experience by surfacing location-relevant content.
 
 ![two](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/cddcc71c-3edb-4a59-9e42-c26d41363d15)
+<div style="text-align: center;">
+  <i>Architecture showing the use of KD-Tree for geotagged content</i>
+</div>
 
 **Challenges**  
 * More space required to maintain tree, complexity of tree construction increases if data dimensionality increases (beyond latitude and longitude).
@@ -197,6 +203,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 <div style="text-align: center;">
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/04c90b45-3970-4e4d-bde4-0d3625b5a569" alt="seven" />
 </div>
+<div style="text-align: center;">
+  <i>Flow diagram illustrating the process of assigning priority to posts</i>
+</div>
 
 **Challenges**  
 * Dynamic nature of data (user preference changes) poses a challenge to decide the priority.
@@ -245,6 +254,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * Shorter codes can be assigned to frequently occurring patterns in pixel data or video frames as part of image and video compression. Huffman coding can reduce file size without sacrificing visual quality significantly.
 
 ![nine](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/f0b23aa1-1d4c-4dd8-b322-487e8c6de723)
+<div style="text-align: center;">
+  <i>An overview of how images and videos are compressed and decompressed for storage optimization</i>
+</div>
 
 **Challenges**  
 * Quality of image or video might degrade significantly with high compression ratios.
@@ -270,6 +282,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 <div style="text-align: center;">
   <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/a6de1e76-4858-4189-8869-06043ed01ae7" alt="ten" />
+</div>
+<div style="text-align: center;">
+  <i>High level diagram illustrating hashing of passwords</i>
 </div>
 
 **Challenges**  
