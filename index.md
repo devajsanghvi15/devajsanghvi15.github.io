@@ -11,6 +11,7 @@
 * [❓ Why Instagram?](#why-instagram)
 * [🎯 Objectives](#objectives)
 * [💼 Business Cases](#business-cases)
+* [🔚 Conclusion](#conclusion)
 * [📑 References](#references)
 
 ## Introduction
@@ -437,6 +438,10 @@ To handle such amount of large data, Instagram must be using advanced data struc
 
 [Code for Merge Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/mergeSort.cpp){:target="_blank"} <br>
 [Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
+
+## Conclusion
+This portfolio highlights how essential algorithms and data structures are to Instagram's success. The features we enjoy on Instagram, such as Stories, Reels, and the constant flow of posts, rely on these technical elements to operate seamlessly and manage vast amounts of data. <br>
+The business cases demonstrate the practical application of skills learned in the Algorithmic Problem Solving course. This portfolio aims to be a valuable resource for those interested in the tech behind social media. Understanding these tools helps us enhance platforms like Instagram, ensuring they remain efficient, innovative, and user-friendly.
 
 ## References
 [1] “Topic: Instagram,” Statista, Apr. 24, 2024. [https://www.statista.com/topics/1882/instagram/](https://www.statista.com/topics/1882/instagram/){:target="_blank"} <br><br>
