@@ -428,7 +428,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(nlogn) is the average time complexity and O(n<sup>2</sup>) is the worst case time complexity due to unbalanced partitions.
   * Space Complexity: O(logn) is average and O(n) is the worst case complexity, due to recursive calls on stack.
 
-![sorting_func](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/28f3e12c-18ae-40b7-9578-d77247fb9b38)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/28f3e12c-18ae-40b7-9578-d77247fb9b38" alt="sorting_funv" style="width: 50%; height: auto;" />
+</div>
 <div style="text-align: center;">
   <i>Find the sorted order in which you followed other accounts</i>
 </div>
