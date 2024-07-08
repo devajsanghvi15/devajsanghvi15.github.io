@@ -55,7 +55,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word).
   * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key.
  
-![autocomplete](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/80017922-940f-45bf-b75b-b3ec66c47837)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/80017922-940f-45bf-b75b-b3ec66c47837" alt="autocomplete" />
+</div>
 <div style="text-align: center;">
   <i>Hashtag autocompletion in instagram</i>
 </div>
@@ -85,7 +87,9 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(logn) on average for insertion and search operations (tree is balanced), O(n) in the worst case (tree is unbalanced), where n is the number of points in the tree.
   * Space Complexity: O(n) where n is the number of points stored in the tree.
 
-![geotagged](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/24d7bbbf-ea91-4d1f-8a1e-1c23aefda585)
+<div style="text-align: center;">
+  <img src="https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/24d7bbbf-ea91-4d1f-8a1e-1c23aefda585" alt="geotagged" style="width: 50%; height: auto;" />
+</div>
 <div style="text-align: center;">
   <i>Geotagged post in instagram</i>
 </div>
