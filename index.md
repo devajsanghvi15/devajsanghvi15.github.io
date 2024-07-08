@@ -419,8 +419,8 @@ To handle such amount of large data, Instagram must be using advanced data struc
 [Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
 
 ## References
-[1] “Topic: Instagram,” Statista, Apr. 24, 2024. https://www.statista.com/topics/1882/instagram/ <br><br>
-[2] B. Marr, “How much data do we create every day? The Mind-Blowing Stats Everyone should read,” Bernard Marr, Jul. 13, 2021. https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/ <br><br>
+[1] “Topic: Instagram,” Statista, Apr. 24, 2024. [https://www.statista.com/topics/1882/instagram/](https://www.statista.com/topics/1882/instagram/) <br><br>
+[2] B. Marr, “How much data do we create every day? The Mind-Blowing Stats Everyone should read,” Bernard Marr, Jul. 13, 2021. [https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/]([https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/) <br><br>
 [3] “Instagram Revenue and Usage Statistics (2024) - Business of Apps,” Business of Apps, Apr. 18, 2024. https://www.businessofapps.com/data/instagram-statistics/ <br><br>
 [4] J. Santora, “16 key Instagram Reels Statistics for Marketers to know,” Influencer Marketing Hub, Dec. 22, 2023. https://influencermarketinghub.com/instagram-reels-stats/ <br><br>
 [5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country <br><br>
