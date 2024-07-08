@@ -440,7 +440,7 @@ To handle such amount of large data, Instagram must be using advanced data struc
 [Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
 
 ## Conclusion
-This portfolio highlights how essential algorithms and data structures are to Instagram's success. The features we enjoy on Instagram, such as Stories, Reels, and the constant flow of posts, rely on these technical elements to operate seamlessly and manage vast amounts of data. <br>
+This portfolio highlights how essential algorithms and data structures are to Instagram's success. The features we enjoy on Instagram, such as stories, reels and posts, rely on these technical elements to operate seamlessly and manage vast amounts of data. <br>
 The business cases demonstrate the practical application of skills learned in the Algorithmic Problem Solving course. This portfolio aims to be a valuable resource for those interested in the tech behind social media. Understanding these tools helps us enhance platforms like Instagram, ensuring they remain efficient, innovative, and user-friendly.
 
 ## References
