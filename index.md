@@ -421,16 +421,16 @@ To handle such amount of large data, Instagram must be using advanced data struc
 ## References
 [1] “Topic: Instagram,” Statista, Apr. 24, 2024. [https://www.statista.com/topics/1882/instagram/](https://www.statista.com/topics/1882/instagram/) <br><br>
 [2] B. Marr, “How much data do we create every day? The Mind-Blowing Stats Everyone should read,” Bernard Marr, Jul. 13, 2021. [https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/]([https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/) <br><br>
-[3] “Instagram Revenue and Usage Statistics (2024) - Business of Apps,” Business of Apps, Apr. 18, 2024. https://www.businessofapps.com/data/instagram-statistics/ <br><br>
-[4] J. Santora, “16 key Instagram Reels Statistics for Marketers to know,” Influencer Marketing Hub, Dec. 22, 2023. https://influencermarketinghub.com/instagram-reels-stats/ <br><br>
-[5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. https://www.oberlo.com/statistics/instagram-users-by-country <br><br>
-[6] GeeksforGeeks, “Search and Insertion in K Dimensional tree,” GeeksforGeeks, Jun. 13, 2023. https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/ <br><br>
-[7] G. Arkin, “Binary Search Tree in JavaScript - the startup - medium,” Medium, Mar. 30, 2022. [Online]. Available: https://medium.com/swlh/binary-search-tree-in-javascript-31cb74d8263b <br><br>
-[8] Pranav, “ADA - Pranav - Medium,” Medium, Oct. 30, 2023. [Online]. Available: https://medium.com/@bparash16/a-3bb03592c74b <br><br>
-[9] GeeksforGeeks, “Priority Queue using Binary Heap,” GeeksforGeeks, Jun. 07, 2024. https://www.geeksforgeeks.org/priority-queue-using-binary-heap/ <br><br>
-[10] P. Yadav, “Implement deque data structure in javascript - LearnersBucket,” LearnersBucket, Sep. 04, 2019. https://learnersbucket.com/tutorials/data-structures/implement-deque-data-structure-in-javascript/ <br><br>
-[11] “Deque (Data Structures) - javatpoint,” www.javatpoint.com. https://www.javatpoint.com/ds-deque <br><br>
-[12] G. Pandey, “Bloom Filter - a probabilistic data structure,” Aug. 13, 2023. https://www.linkedin.com/pulse/bloom-filter-probabilistic-data-structure-gaurav-pandey <br><br>
-[13] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/ <br><br>
-[14] Manish, “C++ program to implement segment Tree,” Sanfoundry, May 19, 2022. https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/ <br><br>
-[15] B. Infinity, “Longest Common Subsequence problem: solved | Board Infinity,” Board Infinity, Jul. 09, 2023. https://www.boardinfinity.com/blog/longest-common-subsequence-problem-solved/
+[3] “Instagram Revenue and Usage Statistics (2024) - Business of Apps,” Business of Apps, Apr. 18, 2024. [https://www.businessofapps.com/data/instagram-statistics/](https://www.businessofapps.com/data/instagram-statistics/) <br><br>
+[4] J. Santora, “16 key Instagram Reels Statistics for Marketers to know,” Influencer Marketing Hub, Dec. 22, 2023. [https://influencermarketinghub.com/instagram-reels-stats/](https://influencermarketinghub.com/instagram-reels-stats/) <br><br>
+[5] “Instagram Users by country [Jun 2024 Update] | Oberlo,” Oberlo. [https://www.oberlo.com/statistics/instagram-users-by-country](https://www.oberlo.com/statistics/instagram-users-by-country) <br><br>
+[6] GeeksforGeeks, “Search and Insertion in K Dimensional tree,” GeeksforGeeks, Jun. 13, 2023. [https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/](https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/) <br><br>
+[7] G. Arkin, “Binary Search Tree in JavaScript - the startup - medium,” Medium, Mar. 30, 2022. [Online]. Available: [https://medium.com/swlh/binary-search-tree-in-javascript-31cb74d8263b](https://medium.com/swlh/binary-search-tree-in-javascript-31cb74d8263b) <br><br>
+[8] Pranav, “ADA - Pranav - Medium,” Medium, Oct. 30, 2023. [Online]. Available: [https://medium.com/@bparash16/a-3bb03592c74b](https://medium.com/@bparash16/a-3bb03592c74b) <br><br>
+[9] GeeksforGeeks, “Priority Queue using Binary Heap,” GeeksforGeeks, Jun. 07, 2024. [https://www.geeksforgeeks.org/priority-queue-using-binary-heap/](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/) <br><br>
+[10] P. Yadav, “Implement deque data structure in javascript - LearnersBucket,” LearnersBucket, Sep. 04, 2019. [https://learnersbucket.com/tutorials/data-structures/implement-deque-data-structure-in-javascript/](https://learnersbucket.com/tutorials/data-structures/implement-deque-data-structure-in-javascript/) <br><br>
+[11] “Deque (Data Structures) - javatpoint,” www.javatpoint.com. [https://www.javatpoint.com/ds-deque](https://www.javatpoint.com/ds-deque) <br><br>
+[12] G. Pandey, “Bloom Filter - a probabilistic data structure,” Aug. 13, 2023. [https://www.linkedin.com/pulse/bloom-filter-probabilistic-data-structure-gaurav-pandey](https://www.linkedin.com/pulse/bloom-filter-probabilistic-data-structure-gaurav-pandey) <br><br>
+[13] GeeksforGeeks, “Bloom Filters Introduction and Implementation,” GeeksforGeeks, Apr. 03, 2024. [https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/) <br><br>
+[14] Manish, “C++ program to implement segment Tree,” Sanfoundry, May 19, 2022. [https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/](https://www.sanfoundry.com/cpp-program-to-implement-segment-tree/) <br><br>
+[15] B. Infinity, “Longest Common Subsequence problem: solved | Board Infinity,” Board Infinity, Jul. 09, 2023. [https://www.boardinfinity.com/blog/longest-common-subsequence-problem-solved/](https://www.boardinfinity.com/blog/longest-common-subsequence-problem-solved/)
