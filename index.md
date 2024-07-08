@@ -55,6 +55,11 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(L) for insertion, deletion, and lookup operations, where L is the length of the key (typically a word).
   * Space Complexity: O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key.
  
+![autocomplete](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/80017922-940f-45bf-b75b-b3ec66c47837)
+<div style="text-align: center;">
+  <i>Hashtag autocompletion in instagram</i>
+</div>
+ 
 [Code for Tries](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/trie.cpp){:target="_blank"}
 
 <br>
@@ -79,7 +84,12 @@ To handle such amount of large data, Instagram must be using advanced data struc
 * KD-Tree: Divide and conquer, Tree data structure
   * Time Complexity: O(logn) on average for insertion and search operations (tree is balanced), O(n) in the worst case (tree is unbalanced), where n is the number of points in the tree.
   * Space Complexity: O(n) where n is the number of points stored in the tree.
- 
+
+![geotagged](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/24d7bbbf-ea91-4d1f-8a1e-1c23aefda585)
+<div style="text-align: center;">
+  <i>Geotagged post in instagram</i>
+</div>
+
 [Code for KD-Tree](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/KDTree.cpp){:target="_blank"} [[6]](https://www.geeksforgeeks.org/search-and-insertion-in-k-dimensional-tree/){:target="_blank"}
 
 <br>
@@ -414,6 +424,10 @@ To handle such amount of large data, Instagram must be using advanced data struc
   * Time Complexity: O(nlogn) is the average time complexity and O(n<sup>2</sup>) is the worst case time complexity due to unbalanced partitions.
   * Space Complexity: O(logn) is average and O(n) is the worst case complexity, due to recursive calls on stack.
 
+![sorting_func](https://github.com/devajsanghvi15/devajsanghvi15.github.io/assets/136953523/28f3e12c-18ae-40b7-9578-d77247fb9b38)
+<div style="text-align: center;">
+  <i>Find the sorted order in which you followed other accounts</i>
+</div>
 
 [Code for Merge Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/mergeSort.cpp){:target="_blank"} <br>
 [Code for Quick Sort](https://github.com/devajsanghvi15/devajsanghvi15.github.io/blob/main/codes/quickSort.cpp){:target="_blank"}
